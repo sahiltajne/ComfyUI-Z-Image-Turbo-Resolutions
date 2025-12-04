@@ -1,6 +1,6 @@
 # Z Image Turbo Resolutions
 
-A custom node for ComfyUI that provides quick access to optimized image resolutions for Stable Diffusion turbo models.
+A ComfyUI custom node that provides quick access to all image resolutions for the Z Image Turbo model, sourced from its official Hugging Face Space.
 
 ## Features
 
@@ -30,20 +30,6 @@ A custom node for ComfyUI that provides quick access to optimized image resoluti
 
 3. Restart ComfyUI
 
-## Usage
-
-1. Right-click on the canvas in ComfyUI
-2. Navigate to: `Add Node → image → resolution`
-3. Select "Z Image Turbo Resolutions"
-4. Choose your desired resolution (1024, 1280, or 1536)
-5. Select an aspect ratio from the filtered list
-6. Connect the outputs to your workflow
-
-## Outputs
-
-- **Resolution** (INT): The base resolution value
-- **Width** (INT): Image width in pixels
-- **Height** (INT): Image height in pixels
 
 ## Available Resolutions
 
@@ -86,28 +72,21 @@ A custom node for ComfyUI that provides quick access to optimized image resoluti
 - 2016x864 (21:9)
 - 864x2016 (9:21)
 
-## Example Workflow
-
-```
-Z Image Turbo Resolutions → Empty Latent Image → KSampler → VAE Decode → Save Image
-```
-
-## Requirements
-
-- ComfyUI (latest version recommended)
-- No additional dependencies required
 
 ## License
 
 MIT License
 
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+
 ## Support
 
 If you encounter any issues or have suggestions, please open an issue on GitHub.
+
 
 ## Changelog
 
