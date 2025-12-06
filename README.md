@@ -1,6 +1,6 @@
-# Z Image Turbo Resolutions
+# Z-Image Turbo Resolutions
 
-A ComfyUI custom node that provides quick access to all image resolutions for the Z Image Turbo model, sourced from its official Hugging Face Space.
+A ComfyUI custom node that provides quick access to all image resolutions for the Z-Image Turbo model, sourced from its official Hugging Face Space.
 
 ## Features
 
@@ -13,7 +13,7 @@ A ComfyUI custom node that provides quick access to all image resolutions for th
 
 ### Via ComfyUI Manager (Recommended)
 1. Open ComfyUI Manager
-2. Search for "Z Image Turbo Resolutions"
+2. Search for "Z-Image Turbo Resolutions"
 3. Click Install
 4. Restart ComfyUI
 
