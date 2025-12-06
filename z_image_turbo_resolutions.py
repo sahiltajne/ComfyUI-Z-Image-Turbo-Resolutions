@@ -92,5 +92,5 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ZImageTurboResolutions": "Z-Image Turbo Resolutions"
+    "ZImageTurboResolutions": "Z-Image-Turbo Resolutions"
 }
